@@ -1,0 +1,4 @@
+Active: #02577A
+Navigation bar: #F7F6FF
+Background: #E5E5E5
+Border: #C4C4C4
