@@ -25,6 +25,7 @@ nav:hover .logo-holder{
     height:34px;
     left:16px;
     top:52px;
+    transition: all 0.5s ease-in-out;
 }
 nav:hover .logo-line{
     width:128px;
@@ -37,6 +38,7 @@ nav:hover .logo-line{
     left:18px;
     top:110px;
     border-bottom: 2px solid #C4C4C4;
+    transition: all 0.5s ease-in-out;
 }
 .icon-holder{
     width:25px;
@@ -88,6 +90,7 @@ nav:hover + .content{
     left:101px;
     width: calc(100% - 100px);
     height:100%;
+    transition: all 0.5s ease-in-out;
 }
 footer{
     position:absolute;
