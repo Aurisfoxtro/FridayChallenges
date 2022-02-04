@@ -1,5 +1,5 @@
 .container{
-    width:100vw;
+    width: calc(100vw - 1px);
     height:100vh;
 }
 nav:hover{
@@ -48,6 +48,7 @@ nav:hover .logo-line{
 }
 .games{
     width: 40px;
+    margin-left: -8px;
 }
 ul{
     position:absolute;
