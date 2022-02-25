@@ -50,6 +50,10 @@ nav:hover .logo-line{
     width: 40px;
     margin-left: -8px;
 }
+.games a{
+    text-decoration: none;
+    color:#C4C4C4;
+} 
 ul{
     position:absolute;
     top:142px;
@@ -66,6 +70,9 @@ nav:hover li{
 li{
     width: 89px;
     height: 57px;
+}
+li a{
+    text-decoration: none;
     color:#C4C4C4;
 }
 nav:hover li p{

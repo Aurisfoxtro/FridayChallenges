@@ -5,7 +5,7 @@
     <title>Friday Challenges</title>
     <link href="global.css" rel="stylesheet">
     <link href="styles/layout.css" rel="stylesheet">
-    <link href="styles/home.css" rel="stylesheet">
+    <link href="styles/calendar.css" rel="stylesheet">
 </head>
 <body>
     <div class="container">
@@ -16,18 +16,18 @@
             <div class="logo-line">    
             </div>
             <ul>
-                <li class="active">
+                <li>
                     <a href="./index.html">
                         <div class="icon-holder">
-                            <img src="assets/home_a.png">
+                            <img src="assets/home.png">
                         </div>
                         <p>Home</p>
                     </a>
                 </li>
-                <li>
+                <li class="active">
                     <a href="./calendar.html">
                         <div class="icon-holder">
-                            <img src="assets/calendar.png">
+                            <img src="assets/calendar_a.png">
                         </div>
                         <p>Calendar</p>
                     </a>
@@ -51,23 +51,33 @@
             </ul>
         </nav>
         <div class="content">
-            <!-- HOME starts -->
-            <div class="first-row">
-                <p class="greeting">Good morning, Aurimas</p>
-                <div class="date-holder">
-                    <p id="hours">10:23</p>
-                    <p id="date">Pirmadienis, Sausio 3, 2021</p>
+            <!-- CALENDAR starts -->
+            <div class="calendar_container">
+                <div class="top_margin"></div>
+                <div class="option first_option">
+                    <h3 class="title">SCSS</h3>
+                    <div class="dots"><h3>...</h3></div>
+                    <p class="command">Try mixin</p>
+                    <div class="bar red"></div>
+                </div>
+                <div class="option">
+                    <h3 class="title">React</h3>
+                    <div class="dots"><h3>...</h3></div>
+                    <p class="command">Lift state up</p>
+                    <div class="bar yellow"></div>
+                </div>
+                <div class="option">
+                    <h3 class="title">PHP</h3>
+                    <div class="dots"><h3>...</h3></div>
+                    <p class="command">Use isset()</p>
+                    <div class="bar green"></div>
+                </div>
+                <div class="plus"><h3>+</h3></div>
+                <div class="calendar">
+
                 </div>
             </div>
-            <div class="image-row">
-                <img class="banner" src="assets/workplace-results-professional-report-accounting-during 1.png" alt="workspace">
-            </div>
-            <div class="quote-row">
-                <div class="quote-holder">
-                    <p class="quote">"First, solve the problem. Then, write the code." - John Johnson</p>
-                </div>
-            </div>
-            <!-- HOME ends -->
+            <!-- CALENDAR ends -->
             <footer>
                 <div class="footer-line"></div>
                 <p>&copy; Baltic Institute of Technology</p>

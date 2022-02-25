@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+.calendar_container{
+    position: relative;
+}
+.option{
+    height: 159px;
+    width: 576px;
+    margin-left: 57px;
+    margin-top: 40px;
+    background-color: #fff;
+    border-radius: 25px;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+.first_option{
+    margin-top: 0px;
+}
+.top_margin{
+    height: 40px;
+    width: 100%;
+}
+.dots{
+    position: absolute;
+    right: 57px;
+    top: 44px;
+}
+.dots h3{
+    margin: 0px;
+    padding: 0px;
+}
+.title{
+    padding-top: 26px;
+    margin-left: 42px;
+    margin-bottom: 8px;
+    font-size: 26px;
+    line-height: 32px;
+}
+.command{
+    margin-left: 46px;
+    color: #C4C4C4;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 18px;
+}
+.bar{
+    height: 20px;
+    width: 188px;
+    border-radius: 25px;
+    margin-left: 42px;
+}
+.red{
+    background-color: #FC0000;
+}
+.yellow{
+    background-color: #FCE300;
+}
+.green{
+    background-color: #51FC00;
+}
+.plus{
+    height: 70px;
+    width: 70px;
+    background-color: #02577A;
+    border-radius: 100%;
+    margin-left: 68px;
+    text-align: center;
+}
+.plus:hover{
+    background-color: #EBEEF5;
+    border: 3px solid #02577A;
+    
+}
+.plus h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    line-height: 70px;
+    color: #fff;    
+}
+.plus h3:hover{
+    color:#02577A;
+}
+.calendar{
+    position: absolute;
+    top: 80px;
+    right: 60px;
+    width: 676px;
+    height: 557px;
+    background-color: #fff;
+    border-radius: 25px;
+}
