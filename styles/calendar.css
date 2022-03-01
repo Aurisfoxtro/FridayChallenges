@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap');
 .calendar_container{
     position: relative;
 }
@@ -83,10 +83,67 @@
 }
 .calendar{
     position: absolute;
-    top: 80px;
+    top: 70px;
     right: 60px;
     width: 676px;
     height: 557px;
     background-color: #fff;
     border-radius: 25px;
+}
+.cal_title{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+.month{
+    padding: 0px 26px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
+.week_row{
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 14.2% 14.2% 14.2% 14.2% 14.2% 14.2% 14.2%;
+}
+.week_day{
+    font-size: 24px;
+    font-weight: 500;
+    color: #C4C4C4;
+}
+.week_line{
+    padding-top: 28px;
+    margin-left: 40px;
+    margin-right: 60px;
+    border-bottom: 1px solid #C4C4C4;
+}
+.days_container{
+    margin-left: 64px;
+    margin-right: 64px;
+    padding-top: 26px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 14.2% 14.2% 14.2% 14.2% 14.2% 14.2% 14.2%;
+    grid-template-rows: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;
+    
+}
+.not_c{
+    font-weight: 700;
+    font-size: 24px;
+    color: #C4C4C4;
+    text-align: center;
+    line-height: 50px;
+}
+.cur{
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    line-height: 50px;
+}
+.cur:hover{
+    background-color: #02577A;
+    border-radius: 100%;
+    color:#fff;
 }
